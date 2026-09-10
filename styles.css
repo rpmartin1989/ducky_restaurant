@@ -1,0 +1,160 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4efdf;
+  overflow-x: hidden;
+}
+
+.site-shell {
+  width: 100%;
+}
+
+.design-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 2048px;
+  margin: 0 auto;
+  line-height: 0;
+}
+
+.design-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.hotspot {
+  position: absolute;
+  display: block;
+  z-index: 10;
+  border-radius: 6px;
+}
+
+/* HEADER NAVIGATION */
+
+.home {
+  left: 32.4%;
+  top: 1.05%;
+  width: 4.3%;
+  height: 1.25%;
+}
+
+.story {
+  left: 38.4%;
+  top: 1.05%;
+  width: 6.9%;
+  height: 1.25%;
+}
+
+.menu {
+  left: 47.4%;
+  top: 1.05%;
+  width: 4.3%;
+  height: 1.25%;
+}
+
+.reservations {
+  left: 53.7%;
+  top: 1.05%;
+  width: 8.9%;
+  height: 1.25%;
+}
+
+.find-us {
+  left: 65.1%;
+  top: 1.05%;
+  width: 5.7%;
+  height: 1.25%;
+}
+
+/* TOP RESERVE BUTTON */
+
+.reserve-top {
+  left: 76.1%;
+  top: 0.60%;
+  width: 20.4%;
+  height: 2.25%;
+}
+
+/* HERO MENU BUTTON */
+
+.view-menu {
+  left: 6.6%;
+  top: 15.42%;
+  width: 20.3%;
+  height: 1.72%;
+}
+
+/* STORY BUTTON */
+
+.story-button {
+  left: 41.9%;
+  top: 26.52%;
+  width: 16.8%;
+  height: 1.56%;
+}
+
+/* BOTTOM RESERVE BUTTON */
+
+.reserve-bottom {
+  left: 58.5%;
+  top: 91.92%;
+  width: 21.7%;
+  height: 1.65%;
+}
+
+/* SCROLL TARGETS */
+
+.anchor {
+  position: absolute;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+
+.top-anchor {
+  top: 0%;
+}
+
+.story-anchor {
+  top: 39.5%;
+}
+
+.menu-anchor {
+  top: 58.2%;
+}
+
+.reserve-anchor {
+  top: 87.2%;
+}
+
+.visit-anchor {
+  top: 95%;
+}
+
+.hotspot:focus-visible {
+  outline: 3px solid rgba(255, 255, 255, 0.95);
+  outline-offset: 2px;
+}
+
+.anchor:target {
+  scroll-margin-top: 16px;
+}
+
+@media (max-width: 700px) {
+
+  .hotspot:focus-visible {
+    outline-width: 2px;
+  }
+
+}
