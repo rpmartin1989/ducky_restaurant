@@ -158,3 +158,278 @@ body {
   }
 
 }
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Story | Ducky</title>
+  <meta
+    name="description"
+    content="The story behind Ducky Southern Home Cooking."
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="story-page">
+
+  <!-- HEADER -->
+  <header class="story-header">
+
+    <a href="index.html" class="story-logo">
+      <span class="story-logo-script">Ducky</span>
+      <span class="story-logo-duck">🦆</span>
+      <small>SOUTHERN HOME COOKING</small>
+    </a>
+
+    <nav class="story-nav">
+      <a href="index.html">Home</a>
+      <a href="our-story.html" class="active">Our Story</a>
+      <a href="index.html#menu">Menu</a>
+      <a href="index.html#reserve">Reservations</a>
+      <a href="index.html#visit">Find Us</a>
+    </nav>
+
+    <a href="index.html#reserve" class="story-reserve-btn">
+      Reserve a Table
+    </a>
+
+  </header>
+
+
+  <!-- HERO -->
+  <section class="story-page-hero">
+
+    <div class="story-page-hero-overlay"></div>
+
+    <div class="story-page-hero-copy">
+      <p class="story-kicker">OUR STORY</p>
+
+      <h1>
+        Made With Love.<br>
+        Served Like Home.
+      </h1>
+
+      <p>
+        Ducky was born from the kind of Southern kitchen where
+        recipes live in memory, biscuits are made by feel, and
+        nobody leaves the table hungry.
+      </p>
+    </div>
+
+  </section>
+
+
+  <!-- INTRO -->
+  <section class="story-intro">
+
+    <div class="story-intro-art">
+      <div class="story-duck-sketch">🦆</div>
+
+      <p class="story-handwriting">
+        Southern<br>
+        by Heart,<br>
+        Always ♡
+      </p>
+    </div>
+
+
+    <div class="story-intro-copy">
+
+      <p class="story-kicker dark">
+        HOW IT STARTED
+      </p>
+
+      <h2>
+        The best meals have<br>
+        always felt like home.
+      </h2>
+
+      <p>
+        Ducky began with a simple idea: create the kind of restaurant
+        that feels familiar before you even sit down.
+      </p>
+
+      <p>
+        The food is inspired by Sunday dinners, handwritten family
+        recipes, cast-iron skillets, crowded tables, and the dishes
+        people keep coming back for generation after generation.
+      </p>
+
+      <p>
+        We wanted Ducky to feel less like a restaurant and more like
+        being invited into somebody's home — only with a few more
+        biscuits on the table.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- QUOTE -->
+  <section class="story-quote">
+
+    <p class="story-kicker light">
+      WHAT WE BELIEVE
+    </p>
+
+    <blockquote>
+      “Good food tastes better<br>
+      when the table is full.”
+    </blockquote>
+
+    <div class="story-divider"></div>
+
+    <p class="story-quote-copy">
+      No fuss. No tiny portions. Just honest Southern cooking,
+      good company, and a reason to stay awhile.
+    </p>
+
+  </section>
+
+
+  <!-- VALUES -->
+  <section class="story-values">
+
+    <div class="story-values-heading">
+
+      <p class="story-kicker dark">
+        THE DUCKY WAY
+      </p>
+
+      <h2>
+        A Few Things<br>
+        We Care About
+      </h2>
+
+    </div>
+
+
+    <div class="story-value-grid">
+
+      <article>
+        <span>01</span>
+        <h3>Made From Scratch</h3>
+
+        <p>
+          Biscuits, sides, sauces, desserts — the good stuff
+          deserves a little time and care.
+        </p>
+      </article>
+
+
+      <article>
+        <span>02</span>
+        <h3>Recipes With Roots</h3>
+
+        <p>
+          Familiar Southern favorites inspired by the food
+          families have gathered around for generations.
+        </p>
+      </article>
+
+
+      <article>
+        <span>03</span>
+        <h3>Everyone's Welcome</h3>
+
+        <p>
+          Come dressed up, come straight from work, bring the kids.
+          There's room at the table.
+        </p>
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- PHOTO / STORY SPLIT -->
+  <section class="story-split">
+
+    <div class="story-split-photo">
+      <img
+        src="ducky-homepage.png"
+        alt="Warm Southern restaurant atmosphere"
+      >
+    </div>
+
+
+    <div class="story-split-copy">
+
+      <p class="story-kicker dark">
+        COME ON IN
+      </p>
+
+      <h2>
+        Pull Up a Chair.
+      </h2>
+
+      <p>
+        Around here, dinner isn't something to rush through.
+        Order another side. Pass the biscuits. Stay for pie.
+      </p>
+
+      <p>
+        Whether you're celebrating something big or just hungry
+        on a Tuesday, we hope Ducky feels like your neighborhood
+        place from the very first visit.
+      </p>
+
+      <a href="index.html#menu" class="story-dark-btn">
+        View Our Menu →
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- FINAL CTA -->
+  <section class="story-final">
+
+    <p class="story-kicker dark">
+      WE SAVED YOU A SEAT
+    </p>
+
+    <h2>
+      Good Food.<br>
+      Good People.<br>
+      Always.
+    </h2>
+
+    <a href="index.html#reserve" class="story-dark-btn">
+      Reserve a Table →
+    </a>
+
+    <div class="story-stamp">
+      <span>SOUTHERN FOOD</span>
+      <strong>🦆</strong>
+      <span>BRIGHTER DAYS</span>
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="story-footer">
+
+    <div>
+      <span class="story-footer-logo">Ducky</span>
+      <p>SOUTHERN HOME COOKING</p>
+    </div>
+
+    <p>
+      Good food feels like home.
+    </p>
+
+    <a href="index.html">
+      Back Home ↑
+    </a>
+
+  </footer>
+
+</body>
+</html>
